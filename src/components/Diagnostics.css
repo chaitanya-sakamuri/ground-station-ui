@@ -1,5 +1,5 @@
 .status-row span{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .status-row{
@@ -7,4 +7,11 @@
     justify-content:space-between;
     align-items:center;
     margin:18px 0;
+}
+
+.right-panel h2{
+    color:#ff5b4d;
+    text-transform:uppercase;
+    letter-spacing:1px;
+
 }

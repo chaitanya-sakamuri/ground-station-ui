@@ -6,6 +6,8 @@
 
     border-radius:10px;
 
+    
+
 }
 
 
@@ -38,4 +40,10 @@
 
     cursor:pointer;
 
+}
+
+.command h2{
+    color:#ff5b4d;
+    text-transform:uppercase;
+    letter-spacing:1px;
 }

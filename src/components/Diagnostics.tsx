@@ -25,6 +25,16 @@ function Diagnostics() {
           <span>🟡</span>
       </div>
 
+      <div className="status-row">
+          <span>LiDAR</span>
+          <span>🟡</span>
+      </div>
+
+      <div className="status-row">
+          <span>GPS</span>
+          <span>🟢</span>
+      </div>
+
     </section>
   );
 }

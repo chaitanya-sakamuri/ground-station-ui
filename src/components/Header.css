@@ -1,17 +1,21 @@
-.header {
+.header{
+    border:1px solid #333;
+    border-radius:8px;
+    padding:8px 18px;
 
-    padding: 20px;
-    border-radius: 10px;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
 }
 
 
 .header h1 {
-    font-size: 32px;
+    margin: 0;
+    font-size: 20px;
     letter-spacing: 2px;
+    color:#ff5b4d;
+    text-transform:uppercase;
+    letter-spacing:1px;
 }
 
 

@@ -1,0 +1,72 @@
+.gauge{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.gauge svg{
+    transform:rotate(-90deg);
+}
+
+.bg-circle{
+    fill:none;
+    stroke:#2b2b2b;
+}
+
+.progress-circle{
+
+    fill:none;
+
+    stroke-linecap:round;
+
+    transition:.8s;
+
+}
+
+.gauge-text{
+
+    position:relative;
+
+    margin-top:-68px;
+
+    height:68px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.value{
+
+    font-size:20px;
+
+    font-weight:bold;
+
+    color:white;
+
+}
+
+.unit{
+
+    font-size:12px;
+
+    color:#999;
+
+}
+
+.gauge p{
+
+    margin-top:12px;
+
+    color:#ff5b4d;
+
+    font-weight:bold;
+
+    letter-spacing:1px;
+
+}
