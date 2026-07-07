@@ -1,0 +1,41 @@
+.command {
+
+    padding:20px;
+
+    margin-top:20px;
+
+    border-radius:10px;
+
+}
+
+
+.command input {
+
+    width: 85%;
+
+    padding: 15px;
+
+    background:black;
+
+    color:white;
+
+    border:1px solid #555;
+
+}
+
+
+.command button {
+
+    margin-left:10px;
+
+    padding:10px 20px;
+
+    background:#222;
+
+    color:white;
+
+    border:1px solid #777;
+
+    cursor:pointer;
+
+}

@@ -51,20 +51,11 @@
 }
 
 #root {
-  width: 1126px;
-  max-width: 100%;
-  margin: 0 auto;
-  text-align: center;
-  border-inline: 1px solid var(--border);
-  min-height: 100svh;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
+    width: 100%;
+    min-height: 100vh;
 }
 
-body {
-  margin: 0;
-}
+
 
 h1,
 h2 {
@@ -109,3 +100,17 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+body{
+    background:
+    linear-gradient(#161616,#0d0d0d);
+}
+
+body{
+    background-image:
+        linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+
+    background-size:40px 40px;
+}
+

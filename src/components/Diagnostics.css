@@ -1,0 +1,10 @@
+.status-row span{
+    font-size: 25px;
+}
+
+.status-row{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:18px 0;
+}
