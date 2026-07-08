@@ -1,16 +1,31 @@
-import "./CommandTerminal.css"
-
+import "./CommandTerminal.css";
 
 function CommandTerminal() {
   return (
-    <section className="panel command">
-      <h2>COMMAND TERMINAL</h2>
+    <section className="command-container">
 
-      <input placeholder="Enter command..." />
+      <div className="terminal-box">
+        <h2>COMMAND TERMINAL</h2>
 
-      <button>
-        SEND
-      </button>
+        <div className="terminal-input">
+          <input placeholder="Enter command..." />
+          <button>SEND</button>
+        </div>
+      </div>
+
+
+      <div className="mission-controls">
+
+        <button className="start-btn">
+          ▶ START MISSION
+        </button>
+
+        <button className="stop-btn">
+          ■ STOP MISSION
+        </button>
+
+      </div>
+
     </section>
   );
 }
